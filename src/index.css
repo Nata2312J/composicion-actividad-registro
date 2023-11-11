@@ -1,0 +1,35 @@
+ .contenido{
+  display: flex;
+  justify-content: space-around;
+
+ }
+ body{
+  background-color: darkblue;
+ }
+ 
+ .registrarsePrincipal, .inicioPrincipal{
+  border: 1px solid black; 
+  display: flex;
+  padding:30px;
+  margin-top: 100px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.registrarsePrincipal input, .inicioPrincipal input{
+  display: flex;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  height: 22px;
+  width: 300px;
+}
+.registrarsePrincipal button, .inicioPrincipal button {
+  margin-top: 10px;
+  height: 33px;
+  width: 300px;
+}
+.registrarsePrincipal p, .inicioPrincipal p{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
